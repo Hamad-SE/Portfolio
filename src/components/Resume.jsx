@@ -35,23 +35,25 @@ export default function Resume() {
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 className="resume-title">Personal Projects</h3>
             <div className="resume-item">
-              <h4>Full Stack E-Commerce Platform</h4>
-              <h5>2023 - Present</h5>
+              <h4>Auctify (Real-Time Auction Platform)</h4>
+              <h5>2024 - Present</h5>
               <p><em>Home Project</em></p>
               <ul>
-                <li>Developed a complete e-commerce application using MongoDB, Express.js, React, and Node.js.</li>
-                <li>Implemented user authentication, product management, and a secure shopping cart.</li>
-                <li>Integrated a responsive and modern UI using React and Tailwind CSS.</li>
+                <li>Developed a real-time auction platform featuring scheduled auctions, live bidding, and secure payment method verification.</li>
+                <li>Implemented a private chat system between sellers and auction winners for seamless communication.</li>
+                <li>Built using the MERN stack and Supabase for robust database capabilities.</li>
+                <li><strong>Live Link:</strong> <a href="https://auctify.vercel.app" target="_blank" rel="noopener noreferrer">auctify.vercel.app</a></li>
               </ul>
             </div>
             <div className="resume-item">
-              <h4>Real-Time Chat Application</h4>
-              <h5>2023</h5>
+              <h4>Snippet Saver (Code Snippet Manager)</h4>
+              <h5>2024</h5>
               <p><em>Home Project</em></p>
               <ul>
-                <li>Built a real-time messaging app using Node.js, Express, and Socket.io.</li>
-                <li>Created a sleek and intuitive frontend interface using React.</li>
-                <li>Implemented features like online status, typing indicators, and message history.</li>
+                <li>Built a developer-focused application to easily save, categorize, and retrieve reusable code snippets.</li>
+                <li>Integrated Supabase for seamless cloud-based data persistence and authentication.</li>
+                <li>Created a clean and responsive user interface tailored for fast developer workflows.</li>
+                <li><strong>Live Link:</strong> <a href="https://snippet-saver.vercel.app" target="_blank" rel="noopener noreferrer">snippet-saver.vercel.app</a></li>
               </ul>
             </div>
           </div>
