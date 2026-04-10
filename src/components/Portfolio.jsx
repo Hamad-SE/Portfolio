@@ -19,7 +19,7 @@ export default function Portfolio() {
                   <h4>Auctify</h4>
                   <p>Real-Time Auction Platform</p>
                   <a href="/assets/img/portfolio/app-1.jpg" title="Auctify" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="https://auctify.vercel.app" target="_blank" rel="noopener noreferrer" title="Live Preview" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <a href="https://auctify-mu.vercel.app/" target="_blank" rel="noopener noreferrer" title="Live Preview" className="details-link"><i className="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
@@ -30,7 +30,7 @@ export default function Portfolio() {
                   <h4>Snippet Saver</h4>
                   <p>Developer Code Snippet Manager</p>
                   <a href="/assets/img/portfolio/product-1.jpg" title="Snippet Saver" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="https://snippet-saver.vercel.app" target="_blank" rel="noopener noreferrer" title="Live Preview" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <a href="https://snippet-saver.vercel.app/" target="_blank" rel="noopener noreferrer" title="Live Preview" className="details-link"><i className="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>

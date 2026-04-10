@@ -42,7 +42,7 @@ export default function Resume() {
                 <li>Developed a real-time auction platform featuring scheduled auctions, live bidding, and secure payment method verification.</li>
                 <li>Implemented a private chat system between sellers and auction winners for seamless communication.</li>
                 <li>Built using the MERN stack and Supabase for robust database capabilities.</li>
-                <li><strong>Live Link:</strong> <a href="https://auctify.vercel.app" target="_blank" rel="noopener noreferrer">auctify.vercel.app</a></li>
+                <li><strong>Live Link:</strong> <a href="https://auctify-mu.vercel.app/" target="_blank" rel="noopener noreferrer">auctify.vercel.app</a></li>
               </ul>
             </div>
             <div className="resume-item">
@@ -53,7 +53,7 @@ export default function Resume() {
                 <li>Built a developer-focused application to easily save, categorize, and retrieve reusable code snippets.</li>
                 <li>Integrated Supabase for seamless cloud-based data persistence and authentication.</li>
                 <li>Created a clean and responsive user interface tailored for fast developer workflows.</li>
-                <li><strong>Live Link:</strong> <a href="https://snippet-saver.vercel.app" target="_blank" rel="noopener noreferrer">snippet-saver.vercel.app</a></li>
+                <li><strong>Live Link:</strong> <a href="https://snippet-saver.vercel.app/" target="_blank" rel="noopener noreferrer">snippet-saver.vercel.app</a></li>
               </ul>
             </div>
           </div>
