@@ -30,7 +30,6 @@ export default function Contact() {
                   <p>hamad.se26@gmail.com</p>
                 </div>
               </div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameBorder="0" style={{ border: 0, width: "100%", height: "270px" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
           <div className="col-lg-7">
@@ -38,12 +37,12 @@ export default function Contact() {
               e.preventDefault();
               const formData = new FormData(e.target);
               const data = Object.fromEntries(formData);
-              
+
               const btn = e.target.querySelector('button[type="submit"]');
               const loading = e.target.querySelector('.loading');
               const errorMessage = e.target.querySelector('.error-message');
               const sentMessage = e.target.querySelector('.sent-message');
-              
+
               loading.style.display = 'block';
               errorMessage.style.display = 'none';
               sentMessage.style.display = 'none';
@@ -55,9 +54,9 @@ export default function Contact() {
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify(data)
                 });
-                
+
                 const result = await res.json();
-                
+
                 if (res.ok) {
                   sentMessage.style.display = 'block';
                   e.target.reset();
@@ -90,9 +89,9 @@ export default function Contact() {
                   <textarea className="form-control" name="message" rows="10" id="message-field" required></textarea>
                 </div>
                 <div className="col-md-12 text-center">
-                  <div className="loading" style={{display: 'none'}}>Loading</div>
-                  <div className="error-message" style={{display: 'none'}}></div>
-                  <div className="sent-message" style={{display: 'none'}}>Your message has been sent. Thank you!</div>
+                  <div className="loading" style={{ display: 'none' }}>Loading</div>
+                  <div className="error-message" style={{ display: 'none' }}></div>
+                  <div className="sent-message" style={{ display: 'none' }}>Your message has been sent. Thank you!</div>
                   <button type="submit">Send Message</button>
                 </div>
               </div>

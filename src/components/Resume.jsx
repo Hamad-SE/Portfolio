@@ -36,7 +36,7 @@ export default function Resume() {
             <h3 className="resume-title">Personal Projects</h3>
             <div className="resume-item">
               <h4>Auctify (Real-Time Auction Platform)</h4>
-              <h5>2024 - Present</h5>
+              <h5>2026 - Present</h5>
               <p><em>Home Project</em></p>
               <ul>
                 <li>Developed a real-time auction platform featuring scheduled auctions, live bidding, and secure payment method verification.</li>
@@ -47,7 +47,7 @@ export default function Resume() {
             </div>
             <div className="resume-item">
               <h4>Snippet Saver (Code Snippet Manager)</h4>
-              <h5>2024</h5>
+              <h5>2026</h5>
               <p><em>Home Project</em></p>
               <ul>
                 <li>Built a developer-focused application to easily save, categorize, and retrieve reusable code snippets.</li>
