@@ -890,6 +890,18 @@ section,
   transform: scale(1.1);
 }
 
+/* Ensure visibility on touch devices (mobile) where hover is problematic */
+@media (max-width: 991px) {
+  .portfolio .portfolio-content .portfolio-info {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.65);
+  }
+  .portfolio .portfolio-content img {
+    transform: scale(1.05);
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
