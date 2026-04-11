@@ -10,6 +10,7 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import AdminPanel from './components/AdminPanel';
 
 function App() {
   useEffect(() => {
@@ -34,6 +35,14 @@ function App() {
       }
     };
   }, []);
+
+  if (window.location.pathname === '/admin') {
+    return (
+      <main className="main">
+        <AdminPanel />
+      </main>
+    );
+  }
 
   return (
     <>
